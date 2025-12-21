@@ -1,3 +1,5 @@
-1. use architecture diagram for clear the general technical of system as: how are data input, how can system repond for user, and what is the main processor
+"Thiết kế activity diagram cho :chatbot dùng esp32, có mic, có speaker và gọi API online để xử lí dữ liệu, tại local thì có wakeup word và TTS phản hồi với wakeup word. Hệ thống có thể trò chuyện thì còn có thể thực hiện những yêu cầu đơn giản như bật tắt đèn/quạt qua GPIO, có 3 chế độ hoạt động: 1. Có kết nối wifi tới cloud-> full chức năng, 2. ko có kết nối wifi -> giao tiếp cơ bản bằng wakeup word <--> TTS local + điều khiển GPIO cơ bản, 3. chế độ kết nối wifi (chuyển bằng nhấn nút) -> esp32 phát sóng bluetooth/wifi và user sẽ dùng điện thoại để thiết lập name và Password wifi cho thiết bị "
+
+1. use architecture diagram for clear the general technical of system as: how are data input, how can system respond for user, and what is the main processor
 2. use Activity diagram for explain work-flow
-3. 
+3. chức năng nạp firmware ko day (OTA)
