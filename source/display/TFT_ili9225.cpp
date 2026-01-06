@@ -209,7 +209,7 @@ static inline uint8_t _avr_spi_read(void)
 #elif defined(__AVR__) || defined(TEENSYDUINO)
 #define SPI_DEFAULT_FREQ 8000000
 #elif defined(ESP8266) || defined(ESP32)
-#define SPI_DEFAULT_FREQ 40000000
+#define SPI_DEFAULT_FREQ 60000000  // Increased from 40MHz for better performance
 #elif defined(RASPI)
 #define SPI_DEFAULT_FREQ 80000000
 #elif defined(ARDUINO_ARCH_STM32F1)
