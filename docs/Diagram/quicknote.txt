@@ -3,3 +3,24 @@
 1. use architecture diagram for clear the general technical of system as: how are data input, how can system respond for user, and what is the main processor
 2. use Activity diagram for explain work-flow
 3. chức năng nạp firmware ko day (OTA)
+
+
+---------------
+Hardware:
+- Processor: ESP32
+- Microphone-main: inmp441 (I2S)
+- Microphone-Wakeup: Max4466 (analog)
+- Speaker-main: MAX98357 (I2S Class D)
+- LCD: 1.8" ST7789
+- Button: N/A
+- Storage: Mirco SD - using microSD card Adapter (SPI)
+
+---------------
+Software:
+- AI service: Google Cloud
+- Wakeup words: update later
+- TTS: update later
+- ASR: update later
+- LCD: TFT_22_ILI9225
+- OTA: update later
+- 
